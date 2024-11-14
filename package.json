@@ -1,0 +1,20 @@
+{
+  "name": "branding-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tailwindcss -i ./input.css -o styles/styles.css",
+    "watch":"tailwindcss -i ./input.css -o styles/styles.css --watch"
+  },
+  "keywords": [
+    "Webdesign",
+    "tailwind"
+  ],
+  "author": "Arun Prasadh",
+  "license": "ISC",
+  "description": "A simple branding site website design created using tailwind css",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
